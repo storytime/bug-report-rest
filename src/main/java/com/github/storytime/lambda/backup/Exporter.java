@@ -22,7 +22,7 @@ public class Exporter implements RequestHandler<SQSEvent, Integer> {
     @Override
     public Integer handleRequest(final @NotNull SQSEvent message, final Context context) {
         logger.infof("Start");
-//        steps
+//       app should do next
 //        1. get sqs msg
 //        2. find based on message data in dyn db
 //        3. do req to external services
